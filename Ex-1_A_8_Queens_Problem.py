@@ -58,3 +58,22 @@ def eight_queens():
 
 if __name__ == "__main__":
     eight_queens()
+
+
+# ---------------- INPUT / OUTPUT ----------------
+# Input:
+#   None
+#
+# Output:
+#   Total solutions: 92
+#
+#   One of the possible solutions:
+#
+#   Q . . . . . . .
+#   . . . . Q . . .
+#   . . . . . . . Q
+#   . . . . . Q . .
+#   . . Q . . . . .
+#   . . . . . . Q .
+#   . Q . . . . . .
+#   . . . Q . . . .
