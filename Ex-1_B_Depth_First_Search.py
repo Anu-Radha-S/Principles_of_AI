@@ -112,3 +112,57 @@ if __name__ == "__main__":
 
     print("\n===== DFS for Maze =====")
     dfs_maze()
+
+
+# ---------------- INPUT / OUTPUT ----------------
+# Input:
+#   Enter number of nodes: 4
+#   Enter node name: A
+#   Enter neighbours of node A: B C
+#   Enter node name: B
+#   Enter neighbours of node B: D
+#   Enter node name: C
+#   Enter neighbours of node C:
+#   Enter node name: D
+#   Enter neighbours of node D:
+#   Enter start node: A
+#   Enter goal node: D
+#
+# Output:
+#   ===== DFS for Graph =====
+#
+#   DFS Path
+#
+#   A
+#   B
+#   D
+#
+#   ===== DFS for Maze =====
+#
+#   DFS Path
+#
+#   (0, 0)
+#   (1, 0)
+#   (2, 0)
+#   (3, 0)
+#   (3, 1)
+#   (2, 1)
+#   (2, 2)
+#   (1, 2)
+#   (0, 2)
+#   (0, 3)
+#   (1, 3)
+#   (2, 3)
+#   (2, 4)
+#   (1, 4)
+#   (1, 5)
+#   (0, 5)
+#
+#   Maze Representation
+#
+#   S * * * . .
+#   X X * * X .
+#   * * * X X .
+#   * * * X X .
+#   X * * X . .
+#   G * . X . .
